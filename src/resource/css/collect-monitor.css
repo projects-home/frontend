@@ -1,0 +1,543 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin: left top 0px;
+}
+
+.leftPart{
+  margin-left: 32px;
+  margin-top: 32px;
+  width: 1086px;
+  position: absolute;
+}
+
+.leftPartTop{
+  width: 100%;
+  height: 650px;
+}
+
+.leftPartBottom{
+  width: 100%;
+  height: 278px;
+  margin-top: 28px;
+}
+
+.leftPartBottomLeft{
+  display: inline-block;
+  float: left;
+  height:100%;
+  width: 523px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+.leftPartBottomRight{
+  display: inline-block;
+  float: left;
+  margin-left: 32px;
+  height:100%;
+  width: 523px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+
+.rightPart{
+  margin-top: 32px;
+  left: 1134px;
+  width: 740px;
+  height: 960px;
+  position: absolute;
+}
+
+.rightPartTop{
+  width: 100%;
+  height: 438px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+.rightPartBottom{
+  margin-top: 32px;
+  width: 100%;
+  height: 486px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+.leftPartTopTitle{
+  text-align: left;
+  margin-left: 344px;
+  font-size: 38px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.SwitchButtom{
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  margin-left: 952px;
+  margin-top: 32px;
+}
+
+.SwitchButtonDefault{
+  width: 48px;
+  height: 48px;
+  float: right;
+  display: inline-block;
+  line-height: 48px;
+  color: white;
+  background-image: -webkit-linear-gradient(#c0e6ff, #005d9a); /* Safari 5.1 - 6.0 */
+  background-image: -o-linear-gradient(#c0e6ff, #005d9a); /* Opera 11.1 - 12.0 */
+  background-image: -moz-linear-gradient(#c0e6ff, #005d9a); /* Firefox 3.6 - 15 */
+  background-image: linear-gradient(#c0e6ff, #005d9a); /* 标准的语法 */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#c0e6ff, endColorstr=#005d9a);
+  box-shadow:0px 0px 8px #005d9a;
+  cursor: pointer;
+  border-radius: 32px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.SwitchButtonMain{
+  font-size: 32px;
+  margin-right: 0px;
+  position: relative;
+  z-index: 999;
+}
+
+.SwitchButton1{
+  margin-right: -48px;
+  position: relative;
+  z-index: 998;
+}
+
+.SwitchButton2{
+  margin-right: -48px;
+  position: relative;
+  z-index: 997;
+}
+
+.SwitchButton3{
+  margin-right: -48px;
+  position: relative;
+  z-index: 996;
+}
+
+.SwitchButton4{
+  margin-right: -48px;
+  position: relative;
+  z-index: 995;
+}
+
+.MainDiagram{
+  width: 100%;
+  height: 600px;
+}
+
+.BigCirle{
+  position: absolute;
+  width: 25.3125rem;
+  height: 25.3125rem;
+  border: 0.625rem solid #2f81f2;
+  border-radius: 14.375rem;
+  margin-left: 21.125rem;
+
+}
+
+.SmallCirle{
+  position: absolute;
+  width: 14.375rem;
+  height:14.375rem;
+  border-radius: 7.5rem;
+  border: 0.4375rem solid #1b4790;
+  margin-left: 26.6125rem;
+  margin-top: 5.425rem;
+}
+
+.gear{
+  margin-left: 22.4rem;
+  position: absolute;
+  width: 22.75rem;
+  height:22.75rem;
+  margin-top: 1.25rem;
+  background-image: url("../../images/gear.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.process{
+  margin-left: 27.7625rem;
+  position: absolute;
+  width: 12.1875rem;
+  height:12.1875rem;
+  margin-top: 6.4875rem;
+  background-image: url("../../images/process.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.circle1{
+  position: absolute;
+  margin-left: 12.1875rem;
+  margin-top: 3.75rem;
+  width: 9.125rem;
+  height: 9.125rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+.circle1Anime{
+  width: 7rem;
+  height:7rem;
+  background-image: url("../../images/Circle1Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.circle2{
+  position: absolute;
+  margin-left: 12.5rem;
+  margin-top: 15.3125rem;
+  width: 9.375rem;
+  height:9.375rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+.circle2Anime{
+  width: 8.125rem;
+  height:8.125rem;
+  background-image: url("../../images/Circle2Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.525rem;
+  margin-left: 0.525rem;
+}
+
+.circle3{
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 24.0625rem;
+  width: 9.875rem;
+  height:9.875rem;
+  border-radius:5rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+.circle3Anime{
+  width: 8.375rem;
+  height:8.375rem;
+  background-image: url("../../images/Circle3Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.6875rem;
+  margin-left: 0.6875rem;
+}
+
+.circle4{
+  position: absolute;
+  margin-left:35rem;
+  margin-top: 25rem;
+  width: 11.125rem;
+  height:11.125rem;
+  border-radius:5.625rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+.circle4Anime{
+  width: 9.375rem;
+  height:9.375rem;
+  background-image: url("../../images/Circle4Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.875rem;
+  margin-left: 0.875rem;
+}
+
+.circle5{
+  position: absolute;
+  margin-left:45.625rem;
+  margin-top: 14.375rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+.circle5Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle5Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+.circle6{
+  position: absolute;
+  margin-left: 45.625rem;
+  margin-top: 0rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem  solid #2f81f2;
+}
+
+.circle6Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle6Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+
+.borderLeft{
+  width: 28px;
+  height:100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.borderRight{
+  width: 28px;
+  height:100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.content{
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  float:left;
+}
+
+.ContentSmall{
+  width: 456px;
+}
+
+.ContentBig{
+  width: 672px;
+}
+
+
+.borderLeftTop{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+  margin-left: -2px;
+  background-image: url("../../images/icon/LT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderLeftDown{
+  position: absolute;
+  bottom: 0px;
+  width: 28px;
+  height: 28px;
+  margin-bottom: -2px;
+  margin-left: -2px;
+  background-image: url("../../images/icon/LD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.borderRightTop{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+  margin-left: 2px;
+  background-image: url("../../images/icon/RT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderRightDown{
+  position: absolute;
+  bottom: 0px;
+  width: 28px;
+  height: 28px;
+  margin-bottom: -2px;
+  margin-left: 2px;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rightPartBottomTitle{
+  height: 60px;
+  width:100%;
+  font-family: "Microsoft YaHei UI";
+}
+
+.rightPartBottomTitle>div:first-child{
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+}
+
+.rightPartBottomTitle>div:nth-child(2){
+  color: #44bdff;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+}
+
+.circleProcessTitle{
+
+  color: white;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.circleProcessTitle>div:first-child{
+  argin-top: 12px;
+  display: inline-block;
+  float: left;
+  margin-left: 82px;
+}
+
+.circleProcessTitle>div:nth-child(2){
+  margin-top: 12px;
+  display: inline-block;
+  float: left;
+  margin-left: 160px;
+}
+
+.circleProcessTitle>div:nth-child(3){
+  margin-top: 12px;
+  display: inline-block;
+  float: left;
+  margin-left: 168px;
+}
+
+.rightPartTopTitle{
+  width: 100%;
+  height: 70px;
+  border: 1px solid saddlebrown;
+  margin-top: 20px;
+}
+
+.rightPartTopTitle>div:first-child{
+  font-size: 32px;
+}
+
+.subService{
+  height: 90%;
+  margin-top: 5%;
+  display: inline-block;
+  float: left;
+  margin-left: 36px;
+}
+
+.subServiceTitle{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #44bdff;
+}
+
+.subServiceSubTitle{
+  font-size: 18px;
+  color: #FFFFFF;
+  height: 18px;
+  min-height: 18px;
+  margin-bottom: 34px;
+}
+
+.subServiceList{
+  text-align: right;
+  margin-bottom: 58px;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.overstockIndex{
+  height: 90%;
+  margin-top: 5%;
+  display: inline-block;
+  float: left;
+  margin-left: 48px;
+  width: 310px;
+
+}
+
+.dashboardArea{
+  height: 90%;
+  margin-top: 5%;
+  display: inline-block;
+  float: left;
+  margin-left: 32px;
+}
+
+.dashboardAreaSubTitle{
+  margin-bottom: 44px;
+}
+
+.dashboardStyle{
+  margin-left: 40px;
+}
+
+#lineProcess{
+  margin-left:36px;
+  margin-top: -5.775rem;
+}
+
+#dashBoard{
+  width: 108px;
+  height: 60px;
+  margin-left: 15px;
+}
+
+.contentA{
+  width:80%;
+  height:50%;
+  float:left;
+  display:inline-block;
+  margin-top: 4%;
+  margin-left: 12%;
+}
+
+.contentB{
+  width:80%;
+  height:50%;
+  float:left;
+  display:inline-block;
+  margin-top:-7%;
+  margin-left:12%;
+}
+
+.contentC{
+  width:33%;
+  height:100%;
+  float:left;
+  display:inline-block;
+}
+
+.coll-barChart2{
+  margin-top: 4%;
+}
+
+.coll-areaLineChartTmp{
+  margin-top: 4%;
+}

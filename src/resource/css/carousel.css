@@ -1,0 +1,616 @@
+<style>
+.ivu-carousel
+{
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+	-webkit-tap-highlight-color: transparent
+}
+
+.ivu-carousel-list,.ivu-carousel-track
+{
+	transform: translate3d(0,0,0)
+}
+
+.ivu-carousel-list
+{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0
+}
+
+.ivu-carousel-track
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	display: block;
+	overflow: hidden;
+	z-index: 1
+}
+
+.ivu-carousel-item
+{
+	float: left;
+	height: 100%;
+	min-height: 1px;
+	display: block
+}
+
+.ivu-carousel-arrow
+{
+	border: none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	transition: .2s;
+	background-color: rgba(31,45,61,.11);
+	color: #fff;
+	text-align: center;
+	font-size: 1em;
+	font-family: inherit;
+	line-height: inherit
+}
+
+.ivu-carousel-arrow:hover
+{
+	background-color: rgba(31,45,61,.5)
+}
+
+.ivu-carousel-arrow>*
+{
+	vertical-align: baseline
+}
+
+.ivu-carousel-arrow.left
+{
+	left: 16px
+}
+
+.ivu-carousel-arrow.right
+{
+	right: 16px
+}
+
+.ivu-carousel-arrow-always
+{
+	display: inherit
+}
+
+.ivu-carousel-arrow-hover
+{
+	display: inherit;
+	opacity: 0
+}
+
+.ivu-carousel:hover .ivu-carousel-arrow-hover
+{
+	opacity: 1
+}
+
+.ivu-carousel-dots
+{
+	z-index: 10;
+	display: none;
+	position: relative;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+	width: 100%;
+	height: 17px
+}
+
+.ivu-carousel-dots-inside
+{
+	display: block;
+	position: absolute;
+	bottom: 3px
+}
+
+.ivu-carousel-dots-outside
+{
+	display: block;
+	margin-top: 3px
+}
+
+.ivu-carousel-dots li
+{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin: 0 2px;
+	padding: 7px 0;
+	cursor: pointer
+}
+
+.ivu-carousel-dots li button
+{
+	border: 0;
+	cursor: pointer;
+	background: #8391a5;
+	opacity: .3;
+	display: block;
+	width: 16px;
+	height: 3px;
+	border-radius: 1px;
+	outline: 0;
+	font-size: 0;
+	color: transparent;
+	transition: all .5s
+}
+
+.ivu-carousel-dots li:hover>button
+{
+	opacity: .7
+}
+
+.ivu-carousel-dots li.ivu-carousel-active>button
+{
+	opacity: 1;
+	width: 24px
+}
+
+.ivu-rate
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	vertical-align: middle;
+	font-weight: 400;
+	font-style: normal
+}
+
+.ivu-rate-disabled .ivu-rate-star-content:before,.ivu-rate-disabled .ivu-rate-star:before
+{
+	cursor: default
+}
+
+.ivu-rate-disabled .ivu-rate-star:hover
+{
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+.ivu-rate-star
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-right: 8px;
+	position: relative;
+	font-family: Ionicons;
+	transition: all .3s ease
+}
+
+.ivu-rate-star:hover
+{
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.ivu-rate-star-content:before,.ivu-rate-star:before
+{
+	color: #e9e9e9;
+	cursor: pointer;
+	content: "\F4B3";
+	transition: all .2s ease-in-out;
+	display: block
+}
+
+.ivu-rate-star-content
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	overflow: hidden
+}
+
+.ivu-rate-star-content:before
+{
+	color: transparent
+}
+
+.ivu-rate-star-full:before,.ivu-rate-star-half 
+          .ivu-rate-star-content:before
+{
+	color: #f5a623
+}
+
+.ivu-rate-star-full:hover:before,.ivu-rate-star-half:hover
+           .ivu-rate-star-content:before
+{
+	color: #f7b84f
+}
+
+.ivu-rate-text
+{
+	margin-left: 8px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 12px
+}
+
+.ivu-upload input[type=file]
+{
+	display: none
+}
+
+.ivu-upload-list
+{
+	margin-top: 8px
+}
+
+.ivu-upload-list-file
+{
+	padding: 4px;
+	color: #495060;
+	border-radius: 4px;
+	transition: background-color .2s ease-in-out;
+	overflow: hidden;
+	position: relative
+}
+
+.ivu-upload-list-file>span
+{
+	cursor: pointer;
+	transition: color .2s ease-in-out
+}
+
+.ivu-upload-list-file>span i
+{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	color: #495060;
+	text-align: center
+}
+
+.ivu-upload-list-file:hover
+{
+	background: #f3f3f3
+}
+
+.ivu-upload-list-file:hover>span
+{
+	color: #2d8cf0
+}
+
+.ivu-upload-list-file:hover>span i
+{
+	color: #495060
+}
+
+.ivu-upload-list-file:hover .ivu-upload-list-remove
+{
+	opacity: 1
+}
+
+.ivu-upload-list-remove
+{
+	opacity: 0;
+	font-size: 18px;
+	cursor: pointer;
+	float: right;
+	margin-right: 4px;
+	color: #999;
+	transition: all .2s ease
+}
+
+.ivu-upload-list-remove:hover
+{
+	color: #444
+}
+
+.ivu-upload-select
+{
+	display: inline-block
+}
+
+.ivu-upload-drag
+{
+	background: #fff;
+	border: 1px dashed #dddee1;
+	border-radius: 4px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	transition: border-color .2s ease
+}
+
+.ivu-upload-drag:hover
+{
+	border: 1px dashed #2d8cf0
+}
+
+.ivu-upload-dragOver
+{
+	border: 2px dashed #2d8cf0
+}
+
+.ivu-tree ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 12px
+}
+
+.ivu-tree ul li
+{
+	list-style: none;
+	margin: 8px 0;
+	padding: 0;
+	white-space: nowrap;
+	outline: 0
+}
+
+.ivu-tree li ul
+{
+	margin: 0;
+	padding: 0 0 0 18px
+}
+
+.ivu-tree-title
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0 4px;
+	border-radius: 3px;
+	cursor: pointer;
+	vertical-align: top;
+	color: #495060;
+	transition: all .2s ease-in-out
+}
+
+.ivu-tree-title:hover
+{
+	background-color: #eaf4fe
+}
+
+.ivu-tree-title-selected,.ivu-tree-title-selected:hover
+{
+	background-color: #d5e8fc
+}
+
+.ivu-tree-arrow
+{
+	cursor: pointer
+}
+
+.ivu-tree-arrow i
+{
+	transition: all .2s ease-in-out
+}
+
+.ivu-tree-arrow-open i
+{
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg)
+}
+
+.ivu-tree-arrow-hidden
+{
+	cursor: auto
+}
+
+.ivu-tree-arrow-hidden i
+{
+	display: none
+}
+
+.ivu-tree-arrow-disabled
+{
+	cursor: not-allowed
+}
+
+.ivu-avatar
+{
+	display: inline-block;
+	text-align: center;
+	background: #ccc;
+	color: #fff;
+	white-space: nowrap;
+	position: relative;
+	overflow: hidden;
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 16px
+}
+
+.ivu-avatar>*
+{
+	line-height: 32px
+}
+
+.ivu-avatar.ivu-avatar-icon
+{
+	font-size: 18px
+}
+
+.ivu-avatar-large
+{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px
+}
+
+.ivu-avatar-large>*
+{
+	line-height: 40px
+}
+
+.ivu-avatar-large.ivu-avatar-icon
+{
+	font-size: 24px
+}
+
+.ivu-avatar-small
+{
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px
+}
+
+.ivu-avatar-small>*
+{
+	line-height: 24px
+}
+
+.ivu-avatar-small.ivu-avatar-icon
+{
+	font-size: 14px
+}
+
+.ivu-avatar-square
+{
+	border-radius: 4px
+}
+
+.ivu-avatar>img
+{
+	width: 100%;
+	height: 100%
+}
+
+.ivu-color-picker
+{
+	display: inline-block
+}
+
+.ivu-color-picker .ivu-select-dropdown
+{
+	padding: 0
+}
+
+.ivu-color-picker-rel
+{
+	line-height: 0
+}
+
+.ivu-color-picker-color
+{
+	width: 18px;
+	height: 18px;
+	background-image: url(data:image/png;
+	base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==);border-radius: 2px;
+	position: relative;
+	top: 2px
+}
+
+.ivu-color-picker-color div
+{
+	width: 100%;
+	height: 100%;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.15);
+	border-radius: 2px
+}
+
+.ivu-color-picker-color-empty
+{
+	background: #fff;
+	overflow: hidden;
+	text-align: center
+}
+
+.ivu-color-picker-color-empty i
+{
+	font-size: 20px
+}
+
+.ivu-color-picker-large .ivu-color-picker-color
+{
+	width: 20px;
+	height: 20px;
+	top: 1px
+}
+
+.ivu-color-picker-small .ivu-color-picker-color
+{
+	width: 14px;
+	height: 14px;
+	top: 3px
+}
+
+.ivu-color-picker-picker-wrapper
+{
+	padding: 8px 8px 0
+}
+
+.ivu-color-picker-picker-panel
+{
+	width: 240px;
+	margin: 0 auto;
+	box-sizing: initial;
+	position: relative
+}
+
+.ivu-color-picker-picker-alpha-slider,.ivu-color-picker-picker-hue-slider
+{
+	height: 10px;
+	margin-top: 8px;
+	position: relative
+}
+
+.ivu-color-picker-picker-colors
+{
+	margin-top: 8px;
+	overflow: hidden
+}
+
+.ivu-color-picker-picker-colors span
+{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	float: left
+}
+
+.ivu-color-picker-picker-colors span em
+{
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 2px;
+	cursor: pointer;
+	border-radius: 2px;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.15)
+}
+
+.ivu-color-picker-picker .ivu-picker-confirm
+{
+	margin-top: 8px
+}
+
+.ivu-color-picker-saturation-wrapper
+{
+	width: 100%;
+	padding-bottom: 75%;
+	position: relative;
+	overflow: hidden
+}

@@ -1,0 +1,621 @@
+  .background{
+    background-image: url("../../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 1920px;
+    height:1080px;
+    transform-origin: left top 0px;
+  }
+  
+  .leftPart{
+    margin-left: 20px;
+    margin-top: 32px;
+    width: 930px;
+    position: absolute;
+  }
+  
+  .leftPartTop{
+    width: 100%;
+    height: 620px;
+    background-color: rgba(36,74,125,0.35);
+    border: 2px solid #365f98;
+  }
+  
+  .leftPartBottom{
+    width: 100%;
+    height: 308px;
+    margin-top: 28px;
+    background-color: rgba(36,74,125,0.35);
+    border: 2px solid #365f98;
+  }
+
+  .rightPart{
+    margin-top: 32px;
+    margin-left: 50.8%;
+    width: 930px;
+    height: 960px;
+    position: absolute;
+  }
+  
+  .rightPartTop{
+    width: 100%;
+    height: 670px;
+    background-color: rgba(36,74,125,0.35);
+    border: 2px solid #365f98;
+  }
+  
+  .rightPartBottom{
+    margin-top: 32px;
+    width: 100%;
+    height: 253px;
+    background-color: rgba(36,74,125,0.35);
+    border: 2px solid #365f98;
+  }
+  
+  .leftPartTopTitle{
+    text-align: left;
+    margin-left: 344px;
+    font-size: 38px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .MainDiagram{
+    width: 100%;
+    height: 600px;
+  }
+  
+  .borderLeft{
+    width: 27px;
+    height:100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
+  
+  .borderRight{
+    width: 27px;
+    height:100%;
+    display: inline-block;
+    float: right;
+    position: relative;
+  }
+  
+  .content{
+    height: 100%;
+    width: auto;
+    display: inline-block;
+    float:left;
+  }
+  
+  .ContentSmall{
+    width: 456px;
+  }
+  
+  .ContentBig{
+    width: 672px;
+  }
+  
+  
+  .borderLeftTop{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: -2px;
+    margin-left: -2px;
+    background-image: url("../../images/icon/LT.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .borderLeftDown{
+    position: absolute;
+    bottom: 0px;
+    width: 28px;
+    height: 28px;
+    margin-bottom: -2px;
+    margin-left: -2px;
+    background-image: url("../../images/icon/LD.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  
+  .borderRightTop{
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    margin-top: -2px;
+    margin-left: 2px;
+    background-image: url("../../images/icon/RT.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .borderRightDown{
+    position: absolute;
+    bottom: 0px;
+    width: 27px;
+    height: 28px;
+    margin-bottom: -2px;
+    margin-left: 2px;
+    background-image: url("../../images/icon/RD.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  .contentL{
+    width: 190px;
+    height: 100%;
+    float: left;
+  }
+
+  .contentR{
+    width: 682px;
+    height: 100%;
+    float: left;
+    background-image: url("../../images/map.png");
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: center;
+  }
+
+  .contentTittle{
+    margin-top: 5px;
+    font-size: 20px;
+    color: white;
+    float: left;
+  }
+
+  .contentTip{
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    float: right;
+  }
+
+  .ringBG{
+    margin-top: 8px;
+    width: 872px;
+    height: 100%;
+    background-image: url("../../images/ring.png");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position: center;
+  }
+
+  .ringL1{
+    width: 70px;
+    height: 50px;
+    margin-top: 63px;
+    margin-left: 43px;
+    position: absolute;
+  }
+
+  .ringL2{
+    width: 70px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 43px;
+    position: absolute;
+  }
+
+  .ringL3{
+    width: 50px;
+    height: 50px;
+    margin-top: 127px;
+    margin-left: 208px;
+    position: absolute;
+  }
+
+  .ringMid{
+    width: 100px;
+    height: 50px;
+    margin-top: 122px;
+    margin-left: 386px;
+    position: absolute;
+  }
+
+  .ringR1{
+    width: 70px;
+    height: 50px;
+    margin-top: 126px;
+    margin-left: 608px;
+    position: absolute;
+  }
+    
+  .ringR2{
+    width: 70px;
+    height: 50px;
+    margin-top: 62px;
+    margin-left: 768px;
+    position: absolute;
+  }
+    
+  .ringR3{
+    width: 70px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 768px;
+    position: absolute;
+  }
+
+  .labelT{
+    font-size: 20px;
+    font-weight: normal;
+    color: yellow;
+  }
+
+  .labelB{
+    font-size: 17px;
+    font-weight: normal;
+    color: white;
+    padding-left: 3px;
+  }
+
+  .contentL1{
+    width: 190px;
+    height: 100px;
+    background: #142960;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+  .contentL2{
+    width: 190px;
+    height: 100px;
+    background: #142960;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .contentL3{
+    width: 190px;
+    height: 100px;
+    background: #142960;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .contentLTip{
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+  }
+
+  .contentL4{
+    width: 130px;
+    height: 70px;
+    background: #162E5C;
+    margin-top: 140px;
+  }
+
+  .labelLT{
+    font-size: 26px;
+    font-weight: normal;
+    color: white;
+    margin-top: 12px;
+    position: absolute;
+  }
+
+  .labelLB{
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+    margin-top: 50px;
+    margin-left: 30px;
+    position: absolute;
+  }
+
+  .label41{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #27C6F8;
+    margin-top: 8px;
+    margin-left: 18px;
+    position: absolute;
+  }
+
+  .label42{
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    margin-top: 33px;
+    margin-left: 24px;
+    position: absolute;
+  }
+
+  .border{
+    width: 192px;
+    height: 100px;
+    border: 2px solid #2D7CFF;
+  }
+
+  .contentRs{
+    width: 870px;
+    height: 33%;
+    margin-top: 0.5%;
+  }
+
+  .contentPie{
+    float:left;
+    clear:left;
+    width:35%;
+    height:90%;
+  }
+
+  .contentArea{
+    float:left;
+    width:63%;
+    height:90%;
+  }
+
+  .PieChart{
+    margin-top: -3%;
+    margin-left: -3%;
+  }
+
+  .tipDiv1{
+    width: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin-top: 10px;
+    margin-left: 775px;
+    position: absolute;
+    border: 2px solid #404D94;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .tipBg{
+    background-color: #404D94;
+  }
+
+  .tipDiv2{
+    width: 50px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin-top: 10px;
+    margin-left: 822px;
+    position: absolute;
+    border: 2px solid #404D94;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .blur{
+    position: absolute;
+    filter:alpha(opacity=80);   /* IE */
+    -moz-opacity:0.8;   /* 老版Mozilla */
+    -khtml-opacity: 0.8;  /* 老版Safari */
+    opacity: 0.8;  /* 支持opacity的浏览器*/
+  }
+
+  .blurBS{
+    margin-left: 29%;
+    margin-top: 8%;
+    width: 110px;
+    height: 110px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(237, 221, 21, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(17px);  /* 高斯模糊 */
+    filter: blur(17px);
+  }
+
+  .blurJD{
+    margin-left: 18%;
+    margin-top: 15%;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(65, 105, 225, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(15px);  /* 高斯模糊 */
+    filter: blur(15px);
+  }
+  
+  .blurQP{
+    margin-left: 5%;
+    margin-top: 23%;
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 65px;
+    -webkit-border-radius: 65px;
+    border-radius: 65px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(255, 69, 0, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(13px);  /* 高斯模糊 */
+    filter: blur(13px);
+  }
+      
+  .blurSGS{
+    margin-left: 35%;
+    margin-top: 20%;
+    width: 110px;
+    height: 110px;
+    -moz-border-radius: 55px;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(237, 221, 21, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(17px);  /* 高斯模糊 */
+    filter: blur(17px);
+  }
+      
+  .blurPT{
+    margin-left: 27%;
+    margin-top: 26%;
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 45px;
+    -webkit-border-radius: 45px;
+    border-radius: 45px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(255, 69, 0, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(19px);  /* 高斯模糊 */
+    filter: blur(19px);
+  }
+   
+  .blurPDXQ{
+    margin-left: 52%;
+    margin-top: 23%;
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 65px;
+    -webkit-border-radius: 65px;
+    border-radius: 65px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(0, 255, 255, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(13px);  /* 高斯模糊 */
+    filter: blur(13px);
+  }
+   
+  .blurMX{
+    margin-left: 28%;
+    margin-top: 35%;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(255, 165, 0, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(15px);  /* 高斯模糊 */
+    filter: blur(15px);
+  }
+   
+  .blurSJ{
+    margin-left: 3%;
+    margin-top: 43%;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(237, 221, 21, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(13px);  /* 高斯模糊 */
+    filter: blur(13px);
+  }
+   
+  .blurJS{
+    margin-left: 25%;
+    margin-top: 52%;
+    width: 120px;
+    height: 120px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(	255, 69, 0, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(15px);  /* 高斯模糊 */
+    filter: blur(15px);
+  }
+   
+  .blurFX{
+    margin-left: 43%;
+    margin-top: 48%;
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(65, 105, 225, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(13px);  /* 高斯模糊 */
+    filter: blur(13px);
+  }
+   
+  .blurNH{
+    margin-left: 60%;
+    margin-top: 40%;
+    width: 130px;
+    height: 130px;
+    -moz-border-radius: 65px;
+    -webkit-border-radius: 65px;
+    border-radius: 65px;
+    background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 100, from(rgba(0, 255, 255, 1)), to(rgba(0, 0, 0, 0)));
+    -webkit-filter: blur(15px);  /* 高斯模糊 */
+    filter: blur(15px);
+  }
+  
+  .labMap{
+    font-size: 14px;
+    font-weight: normal;
+    color: yellow;
+  }
+
+  .nameMap{
+    background-color: #2568B3;/* 3D6CC2 */
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    display: inline;
+    border: 4px solid #2568B3;
+  }
+
+  .divBS{
+    margin-left: 31.5%;
+    margin-top: 11.5%;
+    position: absolute;
+  }
+
+  .divJD{
+    margin-left: 21.5%;
+    margin-top: 18.5%;
+    position: absolute;
+  }
+
+  .divQP{
+    margin-left: 9%;
+    margin-top: 26.5%;
+    position: absolute;
+  }
+
+  .divSGS{
+    margin-left: 38.5%;
+    margin-top: 22%;
+    position: absolute;
+  }
+
+  .divPT{
+    margin-left: 28.5%;
+    margin-top: 27%;
+    position: absolute;
+  }
+
+  .divPDXQ{
+    margin-left: 55.5%;
+    margin-top: 27%;
+    position: absolute;
+  }
+
+  .divMX{
+    margin-left: 31.5%;
+    margin-top: 38.5%;
+    position: absolute;
+  }
+
+  .divSJ{
+    margin-left: 8.5%;
+    margin-top: 48%;
+    position: absolute;
+  }
+
+  .divJS{
+    margin-left: 28.5%;
+    margin-top: 55.5%;
+    position: absolute;
+  }
+
+  .divFX{
+    margin-left: 48%;
+    margin-top: 53.5%;
+    position: absolute;
+  }
+
+  .divNH{
+    margin-left: 64.5%;
+    margin-top: 44.5%;
+    position: absolute;
+  }

@@ -1,0 +1,242 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin:left top 0px;
+}
+
+
+#leftPart{
+  display: inline-block;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 67.875rem;
+}
+
+#titleBar{
+  width: 100%;
+  height:40px;
+  background: linear-gradient(to right, #355e97 , transparent); /*normal incluing Chrome*/
+  background: -webkit-linear-gradient(left, #355e97 , transparent); /* Safari*/
+  background: -o-linear-gradient(right, #355e97 , transparent); /* Opera*/
+  background: -moz-linear-gradient(right,#355e97 , transparent); /* Firefox*/
+  text-align: left;
+  line-height: 40px;
+  color: white;
+  font-family: "Microsoft YaHei UI";
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 12px;
+}
+
+#leftPartTop{
+  width: 100%;
+  height: 28.625rem;
+  width: 60rem
+}
+#effectiveSingleMean{
+  margin-top: 2%;
+  display: inline-block;
+  float: none;
+  margin-left: auto;
+}
+
+#effectiveSingleServeTitle{
+  text-align: center;
+  font-size: 21px;
+  font-weight: bolder;
+  color: white;
+}
+.subServiceListMean{
+  margin-bottom: 63px;
+  font-size: 21px;
+  height: 1px;
+  min-height: 1px;
+  color: #FFFFFF;
+}
+
+#leftPartBottom{
+  width: 100%;
+  height: 27.375rem;
+  margin-top: 3.5rem;
+}
+
+#leftPartBottomRight{
+  display: inline-block;
+  float: left;
+  margin-left: 2rem;
+  /* height: 100%; */
+  height: 24.675rem;
+  width: 58.6875rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+
+#rightPart{
+  display: inline-block;
+  float: left;
+  margin-top: 6rem;
+  margin-left: -3rem;
+  width: 40.25rem;
+  height: 60rem;
+}
+
+#rightPartTop{
+  height: 28.375rem;
+  width: 51rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+#rightPartBottom{
+  margin-top: 2rem;
+  width: 51rem;
+  height: 24.675rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+#leftPartTopTitle{
+  text-align: center;
+  font-size: 2.375rem;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 1.25rem;
+}
+
+
+.borderLeft{
+  width: 1.75rem;
+  height:100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.borderRight{
+  width:1.75rem;
+  height:100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.content{
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  float:left;
+}
+
+.borderLeftTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderLeftDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.borderRightTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.borderRightDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.subService{
+  height: 10%;
+  margin-top: 3%;
+  display: inline-block;
+  float: left;
+  margin-left: 2.25rem;
+}
+
+.subServiceTitle{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #44bdff;
+}
+
+.subServiceSubTitle{
+  font-size: 1.3rem;
+  color: #FFFFFF;
+  height: 3.85rem;
+  min-height: 2.125rem;
+} 
+
+.subServiceList{
+  text-align: unset;
+  margin-bottom: 4.5rem;
+  margin-top: -1.4rem;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+
+
+.overstockIndex{
+  height: 90%;
+  margin-top: 3%;
+  display: inline-block;
+  float: left;
+  margin-left: 4rem;
+  width: 19.375rem;
+
+}
+
+#dashboardArea{
+  height: 70%;
+  margin-top: 3%;
+  display: inline-block;
+  float: left;
+  text-align:center;  
+  margin-left: 3rem;
+}
+
+.dashboardAreaSubTitle{
+  margin-bottom: -0.25rem;
+  font-size: 1.28rem;
+  color: #FFFFFF;
+  min-height: 0.025rem;
+}
+
+.dashboardStyle{
+  margin-left: -20px;
+}

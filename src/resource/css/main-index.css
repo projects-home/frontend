@@ -1,0 +1,177 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin:left top 0px;
+}
+
+#collect{
+  position: absolute;
+  width: 520px;
+  height:325px;
+  margin-top: 80px;
+  margin-left: 770px;
+  cursor: pointer;
+}
+
+
+  #star{
+    position: absolute;
+    width: 331px;
+    height:289px;
+    margin-left: 771px;
+    margin-top: 413px;
+    background-image: url("../../images/star.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #CashierAndWarehouse{
+    position: absolute;
+    width: 520px;
+    height:325px;
+    margin-top: 458px;
+    margin-left: 324px;
+    cursor: pointer;
+  }
+
+  #proProcess{
+    position: absolute;
+    width: 600px;
+    height:325px;
+    margin-left: 1017px;
+    margin-top: 459px;
+    cursor: pointer;
+
+  }
+
+  .Pic{
+    display: inline-block;
+    float: left;
+    height:325px;
+    width:325px;
+    background-image: url("../../images/bubble.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .img{
+    width:140px;
+    height:140px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  #CashierAndWarehousePic{
+    float: right;
+  }
+
+  .Title{
+    padding-top: 67px;
+    font-size:45px ;
+    font-weight: bold;
+    font-family: "Microsoft YaHei UI";
+    background-image: -webkit-linear-gradient(#c0e6ff, #005d9a); /* Safari 5.1 - 6.0 */
+    background-image: -o-linear-gradient(#c0e6ff, #005d9a); /* Opera 11.1 - 12.0 */
+    background-image: -moz-linear-gradient(#c0e6ff, #005d9a); /* Firefox 3.6 - 15 */
+    background-image: linear-gradient(#c0e6ff, #005d9a); /* 标准的语法 */
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#c0e6ff, endColorstr=#005d9a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+
+  .spot{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    line-height:  19px;
+    border-radius: 19px 19px 19px 19px;
+    background-image: -webkit-linear-gradient(#c0e6ff, #005d9a); /* Safari 5.1 - 6.0 */
+    background-image: -o-linear-gradient(#c0e6ff, #005d9a); /* Opera 11.1 - 12.0 */
+    background-image: -moz-linear-gradient(#c0e6ff, #005d9a); /* Firefox 3.6 - 15 */
+    background-image: linear-gradient(#c0e6ff, #005d9a); /* 标准的语法 */
+    font-size: 24px;
+    color: #5cc1f7;
+    float: left;
+  }
+
+  .smallLable{
+    font-size: 19px;
+    color: #5cc1f7;
+    padding-left: 32px;
+    height:19px;
+    float: left;
+  }
+
+  .smallLableRight{
+    font-size: 19px;
+    color: #5cc1f7;
+    padding-right: 32px;
+    height: 19px;
+    float: left;
+  }
+
+  .spot1{
+    margin-top: 68px;
+  }
+
+  .spot2{
+    margin-top: 115px;
+    margin-left: 0px;
+  }
+
+  .spot3{
+    margin-top: 164px;
+    margin-left: -16px;
+  }
+
+  .spot4{
+    margin-top: 211px;
+    margin-left: -27px;
+  }
+
+  .spot5{
+    margin-top: 88px;
+    margin-left: 88px;
+  }
+
+  .spot6{
+    margin-top: 136px;
+    margin-left: 0px;
+  }
+
+  .spot7{
+    margin-top: 184px;
+    margin-left: -16px;
+  }
+
+  .spot8{
+    margin-top: 232px;
+    margin-left: -27px;
+  }
+
+  .spot9{
+    margin-top: 280px;
+    margin-left: -38px;
+  }
+
+  .spot10{
+    float: right;
+    margin-top: 72px;
+    margin-right: 16px;
+  }
+
+  .spot11{
+    float: right;
+    margin-top: 32px;
+    margin-right:  32px;
+  }
+
+  .spot12{
+    float: right;
+    margin-top: 32px;
+    margin-right: 38px;
+  }

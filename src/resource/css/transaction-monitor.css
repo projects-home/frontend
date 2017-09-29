@@ -1,0 +1,425 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin: left top 0px;
+}
+
+.leftPart{
+  width: 1120px;
+  display: inline-block;
+  float: left;
+  margin-left: 14px;
+}
+
+.leftPartTop{
+  height: 621px;
+  width: 100%;
+}
+
+.leftPartBottom{
+  height: 385px;
+  width: 100%;
+
+}
+
+.leftPartBottomLeft{
+  display: inline-block;
+  float: left;
+  width:545px;
+  height: 100%;
+  border:2px solid #365f98;
+}
+
+.leftPartBottomRight{
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+  width:545px;
+  height: 100%;
+  border:2px solid #365f98;
+}
+
+.rightPart{
+  width: 758px;
+  margin-left: 14px;
+  height: 1008px;
+  display: inline-block;
+  float: left;
+}
+
+.borderLeft{
+  width: 28px;
+  height:100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.borderLeftTop{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+  margin-left: -2px;
+  background-image: url("../../images/icon/LT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderLeftDown{
+  position: absolute;
+  bottom: 0px;
+  width: 28px;
+  height: 28px;
+  margin-bottom: -2px;
+  margin-left: -2px;
+  background-image: url("../../images/icon/LD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderRight{
+  width: 28px;
+  height:100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.borderRightTop{
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  margin-top: -2px;
+  margin-left: 2px;
+  background-image: url("../../images/icon/RT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderRightDown{
+  position: absolute;
+  bottom: 0px;
+  width: 28px;
+  height: 28px;
+  margin-bottom: -2px;
+  margin-left: 2px;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.rightContent{
+  width: 698px;
+  height:100%;
+  display: inline-block;
+  float: left;
+}
+
+.leftContent{
+  width: 549px;
+  height: 178px;
+  border:2px solid #365f98;
+  display: inline-block;
+  float: left;
+  margin-top: 14px;
+}
+
+.leftContentLeft{
+  width: 549px;
+  height: 178px;
+  border:2px solid #365f98;
+  display: inline-block;
+  float: left;
+  margin-left: 14px;
+  margin-top: 14px;
+}
+
+.Content{
+  width: 480px;
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+
+.ContentTop{
+  width: 100%;
+  height: 190px;
+  border-bottom:2px solid transparent;
+  border-image: linear-gradient( -90deg,transparent 0%, #365f98 50%,transparent 100%)30 30 ;
+}
+
+.ContentBottom{
+  width: 100%;
+  height: 190px;
+}
+
+
+.Title{
+  width:100%;
+  height: 28px;
+  text-align: left;
+  color: #FFFFFF;
+  font-size:18px;
+  font-family: "Microsoft YaHei UI";
+}
+
+.liquidFillContent{
+  width: 480px;
+}
+
+.liquidFillLabel{
+  text-align: center;
+  position: absolute;
+  color: #21afe2;
+  text-shadow:0px 0px 10px #21afe2;
+  font-size: 16px;
+  margin-top: 16px;
+  min-width: 100px;
+  z-index: 10;
+}
+
+.liquidFillLabel1{
+  margin-left: 65px;
+}
+
+.liquidFillLabel2{
+  margin-left: 217px;
+}
+
+.liquidFillLabel3{
+  margin-left: 370px;
+}
+
+.liquidFillLabel4{
+  margin-left: 523px;
+}
+
+.liquidFillLabelSub{
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  text-shadow:0px 0px 10px #000;
+  font-size: 10px;
+  margin-top: 80px;
+  min-width: 100px;
+  z-index: 10;
+}
+
+.liquidFillLabelSub1{
+  margin-left: 70px;
+}
+
+.liquidFillLabelSub2{
+  margin-left: 217px;
+}
+
+.liquidFillLabelSub3{
+  margin-left: 370px;
+}
+
+.liquidFillLabelSub4{
+  margin-left: 525px;
+}
+
+.leftContentSmall{
+  display: inline-block;
+  float: left;
+  width: 240px;
+  height: 170px;
+}
+
+.rightContentBig{
+  display: inline-block;
+  float: right;
+  margin-top: -38px;
+  height: 180px;
+  width: 300px;
+}
+
+.heartBeat{
+  margin-top: 24px;
+}
+.heartBeatSmallResize{
+  display: inline-block;
+  float: left;
+}
+.heartBeatSmall{
+  -webkit-transform: scale(1);
+  width: 50px;
+  height: 50px;
+  transform-origin:left top 0px;
+  margin-top: 46px;
+  margin-left: 16px;
+}
+
+.mainTitle{
+  font-size: 18px;
+  min-width: 150px;
+  max-width: 150px;
+  color: #FFFFFF;
+  display: inline-block;
+  float: left;
+  margin-left: 0px;
+}
+
+.subTitle{
+
+  font-size: 14px;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 0px;
+}
+
+.ChartContent{
+
+  width: 100%;
+  height:158px ;
+}
+
+.lineChartContent{
+  display: inline-block;
+  float: right;
+  margin-right: -10px;
+  margin-top: -25px;
+  width: 250px;
+  height: 175px;
+}
+
+.pieContent{
+  display: inline-block;
+  float: left;
+  left:0px;
+  margin-top: 5px;
+  margin-left: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+.liquidFillContent{
+  display: inline-block;
+  float: left;
+  left:0px;
+  margin-top: 5px;
+  margin-left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.infoLabel{
+  height: 28px;
+  width: 267px;
+  display: inline-block;
+  float: left;
+  margin-left: 6px;
+}
+
+.infoLabelTag{
+  display: inline-block;
+  float: left;
+  border: 1px solid  #294579;
+  width: 89px;
+  height: 26px;
+  background-color: #0a1b5b;
+
+}
+
+.TagContent{
+  font-size: 20px;
+  color: white;
+  -webkit-transform: scale(0.5);
+  transform-origin:left top 0px;
+  width: 178px;
+  height:52px;
+  line-height: 52px;
+  text-align: center;
+  overflow:hidden;
+}
+
+.infoLabelTag:hover{
+  border-color: #2d7cff;
+}
+
+.infoLabelTag2{
+  margin-left: -1px;
+}
+
+.infoLabelTag3{
+  margin-left: -1px;
+}
+
+.rightPartTop{
+  width: 100%;
+  height: 586px;
+  border:2px solid #365f98;
+  margin-top: 12px;
+}
+
+.rightPartTopContent{
+  display: inline-block;
+  float: left;
+  height: 585px;
+  margin-top: 0px;
+  width: 695px;
+}
+
+.rightPartTopContent>div{
+  height: 195px;
+  width: 100%;
+}
+
+.lineChartContentRight{
+  display: inline-block;
+  float: right;
+  margin-right: -10px;
+  margin-top: -25px;
+  width: 300px;
+  height: 175px;
+}
+
+.rightPartMiddle{
+  width: 100%;
+  height: 176px;
+  border:2px solid #365f98;
+  margin-top: 24px;
+}
+
+.rightPartMiddleContent{
+  display: inline-block;
+  float: left;
+  height: 100%;
+  width: 695px;
+}
+
+.rightPartBottom{
+  width: 100%;
+  height: 182px;
+  border:2px solid #365f98;
+  margin-top: 24px;
+}
+
+.rightPartBottomContent{
+  width: 695px;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.liquidFill1{
+  margin-left: 56px;
+}
+
+.liquidFill2{
+  margin-left: 32px;
+}
+
+.liquidFill3{
+  margin-left: 32px;
+}
+
+.liquidFill4{
+  margin-left: 32px;
+}

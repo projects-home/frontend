@@ -1,0 +1,534 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin:left top 0px;
+}
+
+#leftPart{
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  margin-top: 35px;
+  width: 910px;
+  height: 960px;
+}
+
+#titleBar{
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(to right, #355e97 , transparent); /*normal incluing Chrome*/
+  background: -webkit-linear-gradient(left, #355e97 , transparent); /* Safari*/
+  background: -o-linear-gradient(right, #355e97 , transparent); /* Opera*/
+  background: -moz-linear-gradient(right,#355e97 , transparent); /* Firefox*/
+  text-align: left;
+  line-height: 40px;
+  color: white;
+  font-family: "Microsoft YaHei UI";
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 12px;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+#leftPartTop{
+  width: 100%;
+  height: 280px;
+  margin-top: 1%;
+}
+
+#leftPartMedium{
+  width: 100%;
+  height: 280px;
+  margin-top: 3%;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+.effectiveSingleMean{
+  margin-top: 1%;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+  width:10%;
+  height:90%;
+}
+
+.effectiveSingleServeTitle{
+  text-align: center;
+  font-weight: normal;
+  color: white;
+  font-size: 140%;
+}
+.subServiceListMean{
+  margin-top: 45px;
+  font-size: 140%;
+  height: 20px;
+  color: #FFFFFF;
+}
+
+#leftPartBottom{
+  width: 100%;
+  height: 280px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+  margin-top: 3%;
+}
+
+#rightPart{
+  display: inline-block;
+  float: left;
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 910px;
+  height: 960px;
+}
+
+#rightPartTop{
+  width: 100%;
+  height: 350px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px solid #365f98;
+}
+
+#rightPartBottom{
+  margin-top: 4%;
+  width: 100%;
+  height: 520px;
+  background-color: rgba(36,74,125,0.35);
+  border: 2px   solid #365f98;
+}
+
+#leftPartTopTitle{
+  text-align: center;
+  font-size: 1.575rem;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 1.25rem;
+}
+
+#MainDiagram{
+  width: 100%;
+  height: 37.5rem;
+}
+
+#BigCirle{
+  position: absolute;
+  width: 25.3125rem;
+  height: 25.3125rem;
+  border: 0.625rem solid #2f81f2;
+  border-radius: 14.375rem;
+  margin-left: 20.625rem;
+
+}
+
+#SmallCirle{
+  position: absolute;
+  width: 14.375rem;
+  height:14.375rem;
+  border-radius: 7.5rem;
+  border: 0.4375rem solid #1b4790;
+  margin-left: 26.3125rem;
+  margin-top: 5.625rem;
+}
+
+#gear{
+  margin-left: 22.5rem;
+  position: absolute;
+  width: 22.75rem;
+  height:22.75rem;
+  margin-top: 2rem;
+  background-image: url("../../images/gear.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#process{
+  margin-left: 27.8125rem;
+  position: absolute;
+  width: 12.1875rem;
+  height:12.1875rem;
+  margin-top: 7.1875rem;
+  background-image: url("../../images/process.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#circle1{
+  position: absolute;
+  margin-left: 12.1875rem;
+  margin-top: 3.75rem;
+  width: 9.125rem;
+  height: 9.125rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle1Anime{
+  width: 7rem;
+  height:7rem;
+  background-image: url("../../images/Circle1Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#circle2{
+  position: absolute;
+  margin-left: 12.5rem;
+  margin-top: 15.3125rem;
+  width: 9.375rem;
+  height:9.375rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle2Anime{
+  width: 8.125rem;
+  height:8.125rem;
+  background-image: url("../../images/Circle2Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+}
+
+#circle3{
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 24.0625rem;
+  width: 9.875rem;
+  height:9.875rem;
+  border-radius:5rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle3Anime{
+  width: 8.375rem;
+  height:8.375rem;
+  background-image: url("../../images/Circle3Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.6875rem;
+  margin-left: 0.6875rem;
+}
+
+#circle4{
+  position: absolute;
+  margin-left:35rem;
+  margin-top: 25rem;
+  width: 11.125rem;
+  height:11.125rem;
+  border-radius:5.625rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle4Anime{
+  width: 9.375rem;
+  height:9.375rem;
+  background-image: url("../../images/Circle4Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.875rem;
+  margin-left: 0.875rem;
+}
+
+#circle5{
+  position: absolute;
+  margin-left:45.625rem;
+  margin-top: 14.375rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle5Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle5Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+#circle6{
+  position: absolute;
+  margin-left: 45.625rem;
+  margin-top: 0rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem  solid #2f81f2;
+}
+
+#circle6Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle6Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+
+.borderLeft{
+  width: 1.75rem;
+  height:100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.borderRight{
+  width:1.75rem;
+  height:100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.content{
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  float:left;
+}
+
+.borderLeftTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderLeftDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.borderRightTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderRightDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#rightPartBottomTitle{
+  height:3.75rem;
+  width:100%;
+  font-family: "Microsoft YaHei UI";
+}
+
+#rightPartBottomTitle>div:first-child{
+  color: white;
+  font-weight: 100;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+#rightPartBottomTitle>div:nth-child(2){
+  color: #44bdff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.circleProcessTitle{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.circleProcessTitle>div:first-child{
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left:5.125rem;
+}
+
+.circleProcessTitle>div:nth-child(2){
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left: 10rem;
+}
+
+.circleProcessTitle>div:nth-child(3){
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left: 10.5rem;
+}
+
+#rightPartTopTitle{
+  width: 100%;
+  height: 4.375rem;
+  border: 2px solid saddlebrown;
+  margin-top:1.25rem;
+}
+
+#rightPartTopTitle>div:first-child{
+  font-size: 2rem;
+}
+
+.subService{
+  height: 90%;
+  margin-top: 2%;
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+}
+
+.subServiceTitle{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #44bdff;
+}
+
+.subServiceSubTitle{
+  font-size: 0.925rem;
+  color: #FFFFFF;
+  height:1.125rem;
+  min-height: 1.125rem;
+  margin-bottom: 8%;
+}
+
+.subServiceList{
+  text-align: center;
+  margin-bottom: 65%;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+}
+
+.overstockIndex{
+  height: 90%;
+  margin-top: 2%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+  width: 60%;
+}
+
+#dashboardArea{
+  height: 90%;
+  margin-top: 2%;
+  display: inline-block;
+  float: left;
+  margin-left: 1%;
+}
+
+.dashboardAreaSubTitle{
+  margin-bottom: 2.75rem;
+}
+
+.dashboardStyle{
+  margin-left: 10%;
+}
+
+#dashBoard{
+  width: 6.125rem;
+  height: 3.725rem;
+  margin-left: 15%;
+}
+
+#barPreprocess{
+  margin-top: 1%;
+}
+
+.contentT{
+  color:#FFFFFF;
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.contentTSub{
+  color:#D9D9D9;
+  font-size: 130%;
+  margin-top: 1%;
+  margin-right: 5%;
+  text-align: right;
+}
+
+#lineProcess{
+  margin-left: 15%;
+  margin-top: -6.075rem;
+}
+
+.subServiceT{
+  text-align: center;
+  margin-top: 100%;
+  margin-bottom: 230%;
+  font-size: 1.525rem;
+  color: #FFFFFF;
+}
+
+.contentY{
+  width:80%;
+  height:90%;
+  display:inline-block;
+  float:left;
+}
+
+.contentA{
+  width:80%;
+  height:50%;
+  float:left;
+  display:inline-block;
+  margin-top: 3%;
+  margin-left: 4%;
+}
+
+.contentB{
+  width:80%;
+  height:50%;
+  float:left;
+  display:inline-block;
+  margin-top:-8%;
+  margin-left:4%;
+}
+
+.contentC{
+  width:33%;
+  height:100%;
+  float:left;
+  display:inline-block;
+}

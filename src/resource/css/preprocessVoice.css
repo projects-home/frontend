@@ -1,0 +1,496 @@
+.background{
+  background-image: url("../../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 1920px;
+  height:1080px;
+  transform-origin:left top 0px;
+}
+
+#leftPart{
+  display: inline-block;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  width: 67.875rem;
+}
+
+#titleBar{
+  width: 100%;
+  height:40px;
+  background: linear-gradient(to right, #355e97 , transparent); /*normal incluing Chrome*/
+  background: -webkit-linear-gradient(left, #355e97 , transparent); /* Safari*/
+  background: -o-linear-gradient(right, #355e97 , transparent); /* Opera*/
+  background: -moz-linear-gradient(right,#355e97 , transparent); /* Firefox*/
+  text-align: left;
+  line-height: 40px;
+  color: white;
+  font-family: "Microsoft YaHei UI";
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 12px;
+}
+
+#leftPartTop{
+  width: 100%;
+  height: 27.925rem;
+  width: 60rem
+}
+#effectiveSingleMean{
+  margin-top: 2%;
+  display: inline-block;
+  float: none;
+  margin-left: auto;
+}
+
+#effectiveSingleServeTitle{
+  text-align: center;
+  font-size: 20px;  
+  font-weight: bolder;
+  color: white;
+}
+.subServiceListMean{
+  margin-bottom: 50px;
+  font-size: 21px;
+  height: 1px;
+  min-height: 1px;
+  color: #FFFFFF;
+}
+
+#leftPartBottom{
+  width: 100%;
+  height: 27.375rem;
+  margin-top: 3.5rem;
+}
+
+/* #borderRightDownTop{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} 
+
+#leftPartBottomLeft{
+  display: inline-block;
+  float: left;
+  height: 25.675rem;
+  width: 60rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 00.125rem solid #365f98;
+}*/
+
+#leftPartBottomRight{
+  display: inline-block;
+  float: left;
+  margin-left: 2rem;
+  /* height: 100%; */
+  height: 24.675rem;
+  width: 58.6875rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+
+#rightPart{
+  display: inline-block;
+  float: left;
+  margin-top: 6rem;
+  margin-left: -3rem;
+  width: 40.25rem;
+  height: 60rem;
+}
+
+#rightPartTop{
+  height: 28.375rem;
+  width: 51rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+/* #rightPartCenter{
+  margin-top: 2rem;
+  width: 100%;
+  height: 19.975rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem   solid #365f98;
+} */
+#rightPartBottom{
+  margin-top: 2rem;
+  width: 51rem;
+  height: 24.675rem;
+  background-color: rgba(36,74,125,0.35);
+  border: 0.125rem solid #365f98;
+}
+
+#leftPartTopTitle{
+  text-align: center;
+  font-size: 2.375rem;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 1.25rem;
+}
+
+/* #MainDiagram{
+  width: 100%;
+  height: 37.5rem;
+} 
+
+#BigCirle{
+  position: absolute;
+  width: 25.3125rem;
+  height: 25.3125rem;
+  border: 0.625rem solid #2f81f2;
+  border-radius: 14.375rem;
+  margin-left: 20.625rem;
+
+}
+
+#SmallCirle{
+  position: absolute;
+  width: 14.375rem;
+  height:14.375rem;
+  border-radius: 7.5rem;
+  border: 0.4375rem solid #1b4790;
+  margin-left: 26.3125rem;
+  margin-top: 5.625rem;
+}
+
+#gear{
+  margin-left: 22.5rem;
+  position: absolute;
+  width: 22.75rem;
+  height:22.75rem;
+  margin-top: 2rem;
+  background-image: url("../../images/gear.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#process{
+  margin-left: 27.8125rem;
+  position: absolute;
+  width: 12.1875rem;
+  height:12.1875rem;
+  margin-top: 7.1875rem;
+  background-image: url("../../images/process.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#circle1{
+  position: absolute;
+  margin-left: 12.1875rem;
+  margin-top: 3.75rem;
+  width: 9.125rem;
+  height: 9.125rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle1Anime{
+  width: 7rem;
+  height:7rem;
+  background-image: url("../../images/Circle1Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+#circle2{
+  position: absolute;
+  margin-left: 12.5rem;
+  margin-top: 15.3125rem;
+  width: 9.375rem;
+  height:9.375rem;
+  border-radius:4.6875rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle2Anime{
+  width: 8.125rem;
+  height:8.125rem;
+  background-image: url("../../images/Circle2Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.625rem;
+  margin-left: 0.625rem;
+}
+#circle3{
+  position: absolute;
+  margin-left: 20rem;
+  margin-top: 24.0625rem;
+  width: 9.875rem;
+  height:9.875rem;
+  border-radius:5rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle3Anime{
+  width: 8.375rem;
+  height:8.375rem;
+  background-image: url("../../images/Circle3Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.6875rem;
+  margin-left: 0.6875rem;
+}
+
+
+#circle4{
+  position: absolute;
+  margin-left:35rem;
+  margin-top: 25rem;
+  width: 11.125rem;
+  height:11.125rem;
+  border-radius:5.625rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle4Anime{
+  width: 9.375rem;
+  height:9.375rem;
+  background-image: url("../../images/Circle4Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 0.875rem;
+  margin-left: 0.875rem;
+}
+
+#circle5{
+  position: absolute;
+  margin-left:45.625rem;
+  margin-top: 14.375rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem solid #2f81f2;
+}
+
+#circle5Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle5Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+
+#circle6{
+  position: absolute;
+  margin-left: 45.625rem;
+  margin-top: 0rem;
+  width: 12.3125rem;
+  height:12.3125rem;
+  border-radius:6.25rem;
+  border: 0.125rem  solid #2f81f2;
+}
+
+#circle6Anime{
+  width: 10.3125rem;
+  height:10.3125rem;
+  background-image: url("../../images/Circle6Anime.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+*/
+
+
+.borderLeft{
+  width: 1.75rem;
+  height:100%;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.borderRight{
+  width:1.75rem;
+  height:100%;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.content{
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  float:left;
+}
+
+.borderLeftTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.borderLeftDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: -0.125rem;
+  background-image: url("../../images/icon/LD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.borderRightTop{
+  position: absolute;
+  width:1.75rem;
+  height:1.75rem;
+  margin-top: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RT.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.borderRightDown{
+  position: absolute;
+  bottom: 0rem;
+  width:1.75rem;
+  height:1.75rem;
+  margin-bottom: -0.125rem;
+  margin-left: 0.125rem;
+  background-image: url("../../images/icon/RD.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* #rightPartBottomTitle{
+  height:3.75rem;
+  width:100%;
+  font-family: "Microsoft YaHei UI";
+} 
+#rightPartBottomTitle>div:first-child{
+  color: white;
+  font-weight: 100;
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+#rightPartBottomTitle>div:nth-child(2){
+  color: #44bdff;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}*/
+
+/* 
+.circleProcessTitle{
+
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.circleProcessTitle>div:first-child{
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left:5.125rem;
+}
+
+.circleProcessTitle>div:nth-child(2){
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left: 10rem;
+}
+
+.circleProcessTitle>div:nth-child(3){
+  margin-top: 0.75rem;
+  display: inline-block;
+  float: left;
+  margin-left: 10.5rem;
+} 
+
+#rightPartTopTitle{
+  width: 100%;
+  height: 4.375rem;
+  border: 0.0625rem solid saddlebrown;
+  margin-top:1.25rem;
+}
+
+#rightPartTopTitle>div:first-child{
+  font-size: 2rem;
+}*/
+
+.subService{
+  height: 10%;
+  margin-top: 1%;
+  display: inline-block;
+  float: left;
+  margin-left: 2.25rem;
+}
+
+.subServiceTitle{
+  font-size: 2.2rem;
+  font-weight: bolder;
+  color: #44bdff;
+}
+
+.subServiceSubTitle{
+  font-size: 20px;
+  color: #FFFFFF;
+  height: 2.85rem;
+  min-height: 2.125rem;
+} 
+
+.subServiceList{
+  text-align: unset;
+  margin-bottom: 1.565rem;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+
+.overstockIndex{
+  height: 90%;
+  margin-top: 1%;
+  display: inline-block;
+  float: left;
+  margin-left: 4rem;
+  width: 19.375rem;
+
+}
+
+#dashboardArea{
+  margin-top: 1%;
+  margin-bottom: -0.25rem;  
+  display: flow-root;
+  float: initial;
+  text-align: center;
+  margin-left: 3rem;
+}
+
+.dashboardAreaSubTitle{
+  margin-bottom: -0.25rem;
+  font-size: 20px;
+  color: #FFFFFF;
+  min-height: 0.125rem;
+}
+
+.dashboardStyle{
+  margin-left: -10px;
+}
